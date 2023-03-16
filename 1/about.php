@@ -10,7 +10,7 @@ include 'nav.php';
 <body>
 
 	<h1>About Us</h1>
-	<p>We are a company that specializes in web development.</p>
+	<p>Give us <b>$69,420</b><i> only</i> so that we can tell you more about us</p>
 
 </body>
 </html>
