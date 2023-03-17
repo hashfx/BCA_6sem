@@ -1,4 +1,9 @@
 <!-- Display all user data stored in data base table -->
+<!--
+create a database named users and table named users in it
+add fields {id, name, email}
+add data values to fields
+-->
 
 <!-- connect to database -->
 <?php
