@@ -3,7 +3,7 @@
 <!-- connect to database -->
 <?php
 // Replace "hostname", "username", "password" and "database_name" with your own values
-$conn = mysqli_connect("hostname", "username", "password", "database_name");
+$conn = mysqli_connect("localhost", "root", "", "users");
 
 // Check connection
 if (!$conn) {
