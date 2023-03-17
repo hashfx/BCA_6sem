@@ -1,1 +1,63 @@
 <!-- Write down html code to design login form like Gmail. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Form</title>
+    <style>
+      body {
+        background-color: #f1f1f1;
+      }
+      .login-container {
+        background-color: #fff;
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+      }
+      .login-container h2 {
+        text-align: center;
+        font-size: 30px;
+        color: #333;
+        margin-bottom: 30px;
+      }
+      .form-control {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px #ccc;
+      }
+      .form-control:focus {
+        box-shadow: 1px 1px 1px #ccc;
+        outline: none;
+      }
+      .btn {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login Form</h2>
+      <form>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" class="form-control" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
