@@ -17,7 +17,7 @@
     if (isset($_POST['create_cookie'])) {
         $username = $_POST['username'];
 
-        // Set cookie expiration to 1 year from now
+        // Set cookie expiration to 1 hour from now
         $expiration = time() + (3600);
 
         // Set the cookie
